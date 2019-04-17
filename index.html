@@ -1,1 +1,198 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Personal WebPage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	margin: 0;
+	background-color: #4d3651;;
+}
+
+
+img{
+	border-radius: 60% ;
+}
+
+#1{
+	font-weight: 100;
+}
+
+.text{
+	  font-family: URW Chancery L, cursive ;
+	  text-shadow: 2px 2px #999494;
+	  font-size-adjust: 0.85;
+}
+
+.text2{
+    font-family:Times New Roman;
+	font-size: small; 
+	font-style: normal;
+	text-shadow: none;
+	font-weight: 200;
+}
+
+  
+.header {
+  background-image: url("http://www.openjawtech.com/wp-content/uploads/2015/05/tumblr_static_sunset_dreamcatcher.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #dadbef;
+  padding: 300px;
+  text-align: center;
+}
+
+
+.topnav{
+	overflow: hidden;
+	background-color: #e3e5e8;
+}
+.topnav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 5px 10px 5px 10px ;
+}
+.topnav a:hover {
+  background-color: #e1c7e5;
+  color: black;
+}
+
+
+.column1 {
+  float: center;
+  padding: auto 200px auto 200px; 
+  text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+/* unvisited link */
+a:link {
+  color: #b3eeef;
+}
+/* visited link */
+a:visited {
+  color: #d7c0ea;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0; 
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(25) 1s 1 normal both,
+             blinkTextCursor 500ms steps(25) infinite normal;
+  animation-iteration-count: infinite;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 16em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1 class="text" >
+	<font color="white" size="100">Drishya Ramesh</font>
+  </h1>
+  
+  <h2>
+	  <font color="white" face="URW Chancery L"><i>Rien n'est impossible.</i></font>
+  </h2>
+</div>
+
+<div class="topnav">
+  <div class="tooltip"><a href="https://github.com/DrishyaR" target="blank"><img class="tooltip" src="https://www.uruit.com/blog/wp-content/uploads/2017/08/github.png" height="40px" width="40px" alt="Sorry!"></a><span class="tooltiptext">Github</span></div>
+  <div class="tooltip"><a href="https://www.facebook.com/drishya.ramesh.750" target="blank"><img src="https://1.bp.blogspot.com/-WSdqH3gMHDk/U-xndvvQYrI/AAAAAAAABwg/9OLHbIjiTF8/s1600/facebook%2Blogo%2Bpng%2Btransparent%2Bbackground.png" height="40px" width="40px" alt="Sorry"></a><span class="tooltiptext">Facebook</span></div>
+  <div class="tooltip"><a href="https://magicalme8.wordpress.com/" target="blank"><img src="https://spiralli.ie/wp-content/uploads/2018/09/wordpress-icon-512.png" height="40px" width="40px" alt="Sorry"></a><span class="tooltiptext">Blog</span></div>
+  <div class="tooltip"><a href="https://www.linkedin.com/in/drishya-ramesh-28a447177/" target="blank"><img src="http://www.roleplays.co.uk/wp-content/themes/rpft/assets/images/linkedin-icon.png" height="40px" width="40px" alt="Sorry"></a><span class="tooltiptext">Linked In</span></div>
+  <div class="tooltip"><a href="https://twitter.com/drishya_ramesh" target="blank"><img src="https://themuseum.ca/wp-content/uploads/2018/05/580b57fcd9996e24bc43c53e-e1527261120714.png" height="40px" width="40px" alt="Sorry"></a><span class="tooltiptext">Twitter</span></div> 
+  <div class="tooltip"><a href="https://gerrit.wikimedia.org/r/#/q/drishyaramesh" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Gerrit_icon.svg/1200px-Gerrit_icon.svg.png" height="40px" width="40px" alt="Sorry"></a><span class="tooltiptext">Gerrit</span></div> 
+</div>
+
+<div class="row">
+  <div class="column1">
+    <h2 class="text">
+		<font color="#e1c7e5">About Me</font>
+		<br>
+		<img src="/home/drishya_8/Desktop/photo_2019-04-14_15-35-51.png" align="center" height="320px" width="250px" alt="Avatar">
+		<br>
+		<ul style="list-style-type:none" class="text2">
+			<li><font color="white">Undergraduate @<a href="https://www.amrita.edu/" target="blank">Amrita Vishwa Vidyapeetham</font></a></li>
+			<li><font color="white">Studied @ <a href="https://www.ursulinekannur.com/" target="blank">Ursuline Senior Secondary School</font></a></li>
+			<li><font color="white">Member @ <a href="https://amfoss.in/" target="blank">FOSS@Amrita</font></a></li>
+		</ul>
+	</h2>
+  </div>
+</div>
+<br>
+<br>
+<p class="line-1 anim-typewriter">
+	<font color="white" face="">Lover of Novels & Coding :)</font>
+	</p>
+
+</body>
+</html>
+
